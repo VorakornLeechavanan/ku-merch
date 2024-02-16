@@ -9,6 +9,8 @@ class Customer extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['name', 'email'];
+
     public function payment()
     {
         return $this->belongsTo(Payment::class);

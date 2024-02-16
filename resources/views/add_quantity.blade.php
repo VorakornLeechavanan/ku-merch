@@ -7,26 +7,18 @@
         <title> @yield('title') </title>
     </head>
     <body>
-        <h2> Create New Product </h2>
-        <form method="POST" action='/insert'>
+        <h2> Add Quantity </h2>
+        <form method="POST" action='/add_quantity'>
             @csrf
             <div> 
                 <label for="product_id">Product ID</label>
                 <input type='text' name='product_id' maxlength='10' required>
             </div>
             <div>
-                <label for="title">Title</label>
-                <input type='text' name='title' required>
-            </div>
-            <div>
-                <label for="price">Price</label>
-                <input type='number' name='price' min=1 required>
-            </div>
-            <div>
                 <label for="quantity">Quantity</label>
-                <input type='number' name='quantity' min=0>
+                <input type='number' name='quantity' min=1 required>
             </div>
-            <a href='/'> <input type='submit' value='Apply'> </a>
+            <input type='submit' value='Apply'> 
         </form>
     </body>
 </html>

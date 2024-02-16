@@ -18,7 +18,7 @@
                   <a class="nav-link" href="/catalog">Catalog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/">History</a>
+                  <a class="nav-link" href="/history">History</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/register">Sign Up</a>
