@@ -8,4 +8,4 @@ This application is a part of Principle of Software Architecture course, Kasetsa
 Here's the provided link 
 <br>
 <br>
-https://docs.google.com/presentation/d/1LOQODhfZVhdP_y2iPxUX-LrsEr36y7LIsd7r8-wHfqY/edit?usp=sharing
+https://docs.google.com/presentation/d/1Xl6MJ-uRS6KAiBsSI2HkkkYVBfL7l27p6ewC5W9H650/edit?usp=sharing
